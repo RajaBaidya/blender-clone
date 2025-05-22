@@ -15,7 +15,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  overflow: scroll;
+  /* overflow: scroll; */
   width: 100%;
   max-width: 1200px;
   padding: 0 25px;
@@ -220,5 +220,11 @@
 
   .support-title {
     font-size: 2rem;
+  }
+}
+
+@media (max-width: 416px) {
+  .support-navinner{
+    overflow: scroll;
   }
 }
