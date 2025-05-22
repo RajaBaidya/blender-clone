@@ -2,8 +2,8 @@ import React, { useState, useEffect, useRef } from "react";
 import { Link, useLocation } from "react-router-dom"; // Add useLocation
 
 import "../style/nav.css";
-import Home2 from "../page/home2";
-import Support from "../page/support";
+
+
 
 function Nav() {
   const [showNav, setShowNav] = useState(true);
@@ -106,7 +106,7 @@ function Nav() {
 
         {/* Desktop Nav */}
         <ul className="nav-links">
-          <li className="nav-feature"><a href="#">Feature</a></li>
+          <li className="nav-feature"><Link to="/feature">Feature</Link></li>
           <li><a href="#">Download</a></li>
           <li className="nav-support"><Link to="/support">Support</Link></li>
           <li><a href="#">Get Involved</a></li>

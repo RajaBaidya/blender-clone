@@ -7,6 +7,7 @@ import Nav from "./component/nav";
 import Footer from "./component/footer";
 import Home1 from "./page/home1";
 import Home2 from "./page/home2";
+import Feature from "./page/feature";
 import Support from "./page/support";
 
 function App() {
@@ -23,6 +24,8 @@ function App() {
             </>
           }
         />
+        <Route path="/feature" element={<Feature />} />
+
         <Route path="/support" element={<Support />} />
       </Routes>
       <Footer />
