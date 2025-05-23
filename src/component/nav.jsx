@@ -122,7 +122,7 @@ function Nav() {
         </ul>
         {/* Mobile Nav */}
         <ul className={`nav-linksMobile${menuOpen ? " open" : ""}${menuClosing ? " closing" : ""}`}>
-          <li><a href="#">Feature</a></li>
+          <li><Link to="/feature">Feature</Link></li>
           <li><a href="#">Download</a></li>
           <li><Link to="/support">Support</Link></li>
           <li><a href="#">Get Involved</a></li>
