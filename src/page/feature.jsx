@@ -2,26 +2,44 @@ import React from "react";
 
 function Feature() {
   return (
+    <div className="support">
+      {/* <nav className="support-nav">
+        <div className="support-navinner">
+          <ol class="breadcrumb">
+            <li>
+              <a>Features</a>
+            </li>
+                <div className="breadcrumb-sublist">
+                    <a>Modeling</a>
 
-        <div className="support">
-            <nav className="support-nav">
-                <div className="support-navinner">
-                <ol class="breadcrumb">
-                    <li>
-                    <a>Support</a>
-                    </li>
-                    <div className="breadcrumb-sublist">
-                    <a>Documentation</a>
+                    <a>Sculpting</a>
 
-                    <a>Community</a>
+                    <a>Animation & Rigging</a>
 
-                    <a>Enterprise</a>
-                    </div>
-                </ol>
+                    <a>Animation & Rigging</a>
+
+                    <a>Animation & Rigging</a>
+
+                    <a>Animation & Rigging</a>
+
+                    <a>Animation & Rigging</a>
+
+                    <a>Animation & Rigging</a>
+
+                    <a>Animation & Rigging</a>
+
+                    <a>Animation & Rigging</a>
+
+                    <a>Animation & Rigging</a>
                 </div>
-            </nav>
+          </ol>
         </div>
+      </nav> */}
 
+
+
+      
+    </div>
   );
 }
 
