@@ -4,7 +4,15 @@ import "../style/feature.css";
 
 function Feature() {
   return (
-    <div className="support">
+    <div className="feature-main">
+      <div className="feature-overlay"
+              style={{ backgroundColor: "rgba(10,10,10,0.58)" }}>                
+      </div>
+
+      <div className="feature-credits">pokedstudio.com</div>
+
+      
+      <div className="feature-fullcontainer">
       <nav className="support-nav">
         <div className="support-navinner">
           <ol className="breadcrumb">
@@ -37,16 +45,13 @@ function Feature() {
             </div>
             <div
               className="feature-bg"
-              style={{
-                backgroundImage: "url(https://www.blender.org/wp-content/uploads/2017/11/features_rendering_02.jpg)",
-                backgroundPositionY: "50%",
-              }}
+              // style={{
+              //   backgroundImage: "url(https://www.blender.org/wp-content/uploads/2017/11/features_rendering_02.jpg)",
+              //   backgroundPositionY: "50%",
+              // }}
             ></div>
-            <div
-              className="feature-overlay"
-              style={{ backgroundColor: "rgba(10,10,10,0.58)" }}
-            ></div>
-            <div className="feature-credits">pokedstudio.com</div>
+           
+            
           </div>
 
             <div className="container">
@@ -67,7 +72,7 @@ function Feature() {
                        available in the&nbsp;<a href="https://www.blender.org/features/">showcase</a>.</p>
                 </div>
             </div>
-
+      </div>
     </div>
   );
 }
