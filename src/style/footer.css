@@ -10,7 +10,7 @@
     width: 100%;
  }
 
- .footer-containter h3{
+ .footer-containter h1{
     font-size: 18px;
     color: #505050;    
     font-weight: 100; 
@@ -195,3 +195,6 @@
     gap: 10px;
   }
   }
+
+
+  
