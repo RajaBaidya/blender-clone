@@ -5,15 +5,9 @@ import "../style/feature.css";
 function Feature() {
   return (
     <div className="feature-main">
-      <div className="feature-overlay"
-              style={{ backgroundColor: "rgba(10,10,10,0.58)" }}>                
-      </div>
-
-      <div className="feature-credits">pokedstudio.com</div>
-
       
-      <div className="feature-fullcontainer">
-      <nav className="support-nav">
+      <div className="feature-nav">
+        <nav className="support-nav">
         <div className="support-navinner">
           <ol className="breadcrumb">
             <li>
@@ -36,25 +30,30 @@ function Feature() {
           </ol>
         </div>
       </nav>
+      </div>
+
+      <div className="feature-overlay"
+              style={{ "background-color": "rgba(10, 10, 10, 0.58)", "height": "80vh" }}>                
+      </div>
+
+      <div className="feature-credits">pokedstudio.com</div>
+
+      
+      <div className="feature-fullcontainer">
+      
 
           <div className="feature header-size-large header-align-x-center header-align-y-center is-container-overlap">
             <div className="container">
               <div className="feature-content">
                 <h1 className="display-4">Free Software Never Looked This Awesome</h1>
               </div>
-            </div>
-            <div
-              className="feature-bg"
-              // style={{
-              //   backgroundImage: "url(https://www.blender.org/wp-content/uploads/2017/11/features_rendering_02.jpg)",
-              //   backgroundPositionY: "50%",
-              // }}
-            ></div>
-           
-            
-          </div>
+      {/* <div className="feature-credits">pokedstudio.com</div> */}
 
-            <div className="container">
+            </div>            
+          </div>
+          
+
+            <div className="container-second">
                 <div className="wp-block-group is-style-box is-layout-constrained wp-block-group-is-layout-constrained">
                   <p>Blender is the free and open source 3D 
                     creation suite. It supports the entirety 
