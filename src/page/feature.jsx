@@ -4,6 +4,9 @@ import "../style/feature.css";
 
 function Feature() {
   return (
+
+    <>
+
     <div className="feature-main">
       
       <div className="feature-nav">
@@ -50,10 +53,13 @@ function Feature() {
       {/* <div className="feature-credits">pokedstudio.com</div> */}
 
             </div>            
-          </div>
-          
+          </div>            
+      </div>
+    </div>
 
-            <div className="container-second">
+    <div className="container-second">
+        <div className="container-main">
+             <div className="feature-containerHeadtext">
                 <div className="wp-block-group is-style-box is-layout-constrained wp-block-group-is-layout-constrained">
                   <p>Blender is the free and open source 3D 
                     creation suite. It supports the entirety 
@@ -69,10 +75,12 @@ function Feature() {
                        pipeline and responsive development process. 
                        Examples from many Blender-based projects are 
                        available in the&nbsp;<a href="https://www.blender.org/features/">showcase</a>.</p>
+                  </div>
                 </div>
-            </div>
-      </div>
+        </div>
     </div>
+
+    </>
   );
 }
 

@@ -116,10 +116,11 @@ function Nav() {
           <li>
             <button className="nav-btn">
               <img src="../icon/like.png" alt="Donate" />
-              DonatL
+              Donate
             </button>
           </li>
         </ul>
+        
         {/* Mobile Nav */}
         <ul className={`nav-linksMobile${menuOpen ? " open" : ""}${menuClosing ? " closing" : ""}`}>
           <li><Link to="/feature">Feature</Link></li>
