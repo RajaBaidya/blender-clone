@@ -60,7 +60,7 @@ function Feature() {
     <div className="container-second">
         <div className="container-main">
              <div className="feature-containerHeadtext">
-                <div className="wp-block-group is-style-box is-layout-constrained wp-block-group-is-layout-constrained">
+                <div className="feature-headtext">
                   <p>Blender is the free and open source 3D 
                     creation suite. It supports the entirety 
                     of the 3D pipeline—modeling, rigging, 
@@ -74,7 +74,14 @@ function Feature() {
                       and small studios who benefit from its unified
                        pipeline and responsive development process. 
                        Examples from many Blender-based projects are 
-                       available in the&nbsp;<a href="https://www.blender.org/features/">showcase</a>.</p>
+                       available in 
+                       the&nbsp;<a href="https://www.blender.org/features/">showcase</a>.</p>
+
+                <p>Blender is cross-platform and runs equally well on Linux,
+                     Windows, and Macintosh computers. Its interface uses 
+                     OpenGL to provide a consistent experience. To confirm 
+                     specific compatibility, the list of supported platforms
+                      indicates those regularly tested by the development team.</p>
                   </div>
                 </div>
         </div>
