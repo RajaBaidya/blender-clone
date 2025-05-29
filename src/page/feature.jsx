@@ -121,7 +121,7 @@ function Feature() {
                     class="more-link"
                     href="https://www.blender.org/features/rendering/"
                   >
-                    READ MORE <span class="chevron">→</span>
+                    READ MORE <span class="chevron"><img src="../icon/next.png" alt="chevron" /></span>
                   </a>
                 </div>
               </div>
@@ -162,7 +162,7 @@ function Feature() {
                     class="more-link"
                     href="https://www.blender.org/features/rendering/"
                   >
-                    READ MORE <span class="chevron">→</span>
+                    READ MORE <span class="chevron"><img src="../icon/next.png" alt="chevron" /></span>
                   </a>
                 </div>
               </div>
@@ -203,7 +203,7 @@ function Feature() {
                     class="more-link"
                     href="https://www.blender.org/features/rendering/"
                   >
-                    READ MORE <span class="chevron">→</span>
+                    READ MORE <span class="chevron"><img src="../icon/next.png" alt="chevron" /></span>
                   </a>
                 </div>
               </div>
