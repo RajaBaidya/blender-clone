@@ -100,7 +100,7 @@
 .container-main {
   width: 100%;
   max-width: 1200px;
-  padding: 20px;
+  /* padding: 20px; */
 }
 
 .feature-containerHeadtext {
@@ -116,7 +116,7 @@
     color: #747474;
     z-index: 4;
     border-radius: 10px;
-    margin-top: -160px;
+    margin-top: -130px;
 }
 
 .feature-headtext p {
@@ -134,7 +134,7 @@
 } */
 
 
-.feature-content {
+.feature-imagecontent {
   display: grid;
   /* grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); */
   grid-template-columns: 1fr 1fr 1fr;

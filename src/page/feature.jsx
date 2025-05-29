@@ -84,7 +84,7 @@ function Feature() {
             </div>
           </div>
 
-          <div className="feature-content">
+          <div className="feature-imagecontent">
             <div class="card">
               <div class="card-content">
                 <a
@@ -92,7 +92,7 @@ function Feature() {
                   class="card-thumbnail"
                 >
                   <img
-                    src="https://www.blender.org/wp-content/uploads/2017/11/ghost_driver_lukas_walzer.jpg"
+                    src="../image/ghost_driver_lukas_walzer-768x432.jpg"
                     alt="Ghost Driver - Lukas Walzer"
                     title="Rendering"
                     loading="lazy"
@@ -133,7 +133,7 @@ function Feature() {
                   class="card-thumbnail"
                 >
                   <img
-                    src="https://www.blender.org/wp-content/uploads/2017/11/ghost_driver_lukas_walzer.jpg"
+                    src="../image/features_modeling-768x432.jpg"
                     alt="Ghost Driver - Lukas Walzer"
                     title="Rendering"
                     loading="lazy"
@@ -174,7 +174,7 @@ function Feature() {
                   class="card-thumbnail"
                 >
                   <img
-                    src="https://www.blender.org/wp-content/uploads/2017/11/ghost_driver_lukas_walzer.jpg"
+                    src="../image/digital_sculpting-768x432.jpg"
                     alt="Ghost Driver - Lukas Walzer"
                     title="Rendering"
                     loading="lazy"
