@@ -121,7 +121,7 @@
 
 .feature-headtext p {
     font-size: 1.2rem;
-    color: #616161;
+    color: #747474;
     margin-bottom: 20px;
 }
 
@@ -232,10 +232,39 @@
   .feature-content h1, .display-4 {
     font-size: 3.2rem;
   }
+
+  .feature-headtext p {
+    font-size: 1rem;
+  }
+
+  .card-excerpt p {
+    font-size: 1rem;
+  }
+
+  .card-title {
+    font-size: 1.1rem;
+  }
 }
 
 @media (max-width: 450px) {
   .feature-content h1, .display-4 {
     font-size: 2.1rem;
   }
+
+  .feature-headtext p {
+    font-size: 12px;
+  }
+
+  .card-excerpt p {
+    font-size: 12px;
+  }
+
+  .more-link {
+    font-size: 12px;
+  }
+
+  .card-title {
+    font-size: 16px;
+  }
 }
+
