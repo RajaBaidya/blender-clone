@@ -85,6 +85,9 @@ function Feature() {
           </div>
 
           <div className="feature-imagecontent">
+
+           {/* Card 1  */}
+
             <div class="card">
               <div class="card-content">
                 <a
@@ -126,6 +129,9 @@ function Feature() {
                 </div>
               </div>
             </div>
+
+             {/* card 2 */}
+
             <div class="card">
               <div class="card-content">
                 <a
@@ -167,6 +173,9 @@ function Feature() {
                 </div>
               </div>
             </div>
+
+             {/* card 3 */}
+
             <div class="card">
               <div class="card-content">
                 <a
@@ -209,6 +218,370 @@ function Feature() {
               </div>
             </div>
           </div>
+
+          <div className="feature-imagecontent">
+
+            {/* card 4 */}
+
+            <div class="card">
+              <div class="card-content">
+                <a
+                  href="https://www.blender.org/features/rendering/"
+                  class="card-thumbnail"
+                >
+                  <img
+                    src="../image/splash279_large_nocredit-768x432.jpg"
+                    alt="Ghost Driver - Lukas Walzer"
+                    title="Rendering"
+                    loading="lazy"
+                  />
+                </a>
+
+                <a
+                  class="card-title"
+                  href="https://www.blender.org/features/rendering/"
+                >
+                  Rendering
+                </a>
+
+                <a
+                  class="card-excerpt"
+                  href="https://www.blender.org/features/rendering/"
+                >
+                  <p>
+                    Create jaw-dropping renders thanks to Cycles, high-end
+                    production path tracer.
+                  </p>
+                </a>
+
+                <div class="card-more">
+                  <a
+                    class="more-link"
+                    href="https://www.blender.org/features/rendering/"
+                  >
+                    READ MORE <span class="chevron"><img src="../icon/next.png" alt="chevron" /></span>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            {/* card 5 */}
+
+            <div class="card">
+              <div class="card-content">
+                <a
+                  href="https://www.blender.org/features/rendering/"
+                  class="card-thumbnail"
+                >
+                  <img
+                    src="../image/bike-ride-greasepencil-768x432.jpg"
+                    alt="Ghost Driver - Lukas Walzer"
+                    title="Rendering"
+                    loading="lazy"
+                  />
+                </a>
+
+                <a
+                  class="card-title"
+                  href="https://www.blender.org/features/rendering/"
+                >
+                  Rendering
+                </a>
+
+                <a
+                  class="card-excerpt"
+                  href="https://www.blender.org/features/rendering/"
+                >
+                  <p>
+                    Create jaw-dropping renders thanks to Cycles, high-end
+                    production path tracer.
+                  </p>
+                </a>
+
+                <div class="card-more">
+                  <a
+                    class="more-link"
+                    href="https://www.blender.org/features/rendering/"
+                  >
+                    READ MORE <span class="chevron"><img src="../icon/next.png" alt="chevron" /></span>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            {/* card 6 */}
+
+            <div class="card">
+              <div class="card-content">
+                <a
+                  href="https://www.blender.org/features/rendering/"
+                  class="card-thumbnail"
+                >
+                  <img
+                    src="../image/Compositing.png"
+                    alt="Ghost Driver - Lukas Walzer"
+                    title="Rendering"
+                    loading="lazy"
+                  />
+                </a>
+
+                <a
+                  class="card-title"
+                  href="https://www.blender.org/features/rendering/"
+                >
+                  Rendering
+                </a>
+
+                <a
+                  class="card-excerpt"
+                  href="https://www.blender.org/features/rendering/"
+                >
+                  <p>
+                    Create jaw-dropping renders thanks to Cycles, high-end
+                    production path tracer.
+                  </p>
+                </a>
+
+                <div class="card-more">
+                  <a
+                    class="more-link"
+                    href="https://www.blender.org/features/rendering/"
+                  >
+                    READ MORE <span class="chevron"><img src="../icon/next.png" alt="chevron" /></span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div className="feature-imagecontent">
+
+           {/* card 7 */}
+
+            <div class="card">
+              <div class="card-content">
+                <a
+                  href="https://www.blender.org/features/rendering/"
+                  class="card-thumbnail"
+                >
+                  <img
+                    src="../image/features_simulation-768x432.jpg"
+                    alt="Ghost Driver - Lukas Walzer"
+                    title="Rendering"
+                    loading="lazy"
+                  />
+                </a>
+
+                <a
+                  class="card-title"
+                  href="https://www.blender.org/features/rendering/"
+                >
+                  Rendering
+                </a>
+
+                <a
+                  class="card-excerpt"
+                  href="https://www.blender.org/features/rendering/"
+                >
+                  <p>
+                    Create jaw-dropping renders thanks to Cycles, high-end
+                    production path tracer.
+                  </p>
+                </a>
+
+                <div class="card-more">
+                  <a
+                    class="more-link"
+                    href="https://www.blender.org/features/rendering/"
+                  >
+                    READ MORE <span class="chevron"><img src="../icon/next.png" alt="chevron" /></span>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            {/* card 8 */}
+
+            <div class="card">
+              <div class="card-content">
+                <a
+                  href="https://www.blender.org/features/rendering/"
+                  class="card-thumbnail"
+                >
+                  <img
+                    src="../image/blender_io-768x432.jpg"
+                    alt="Ghost Driver - Lukas Walzer"
+                    title="Rendering"
+                    loading="lazy"
+                  />
+                </a>
+
+                <a
+                  class="card-title"
+                  href="https://www.blender.org/features/rendering/"
+                >
+                  Rendering
+                </a>
+
+                <a
+                  class="card-excerpt"
+                  href="https://www.blender.org/features/rendering/"
+                >
+                  <p>
+                    Create jaw-dropping renders thanks to Cycles, high-end
+                    production path tracer.
+                  </p>
+                </a>
+
+                <div class="card-more">
+                  <a
+                    class="more-link"
+                    href="https://www.blender.org/features/rendering/"
+                  >
+                    READ MORE <span class="chevron"><img src="../icon/next.png" alt="chevron" /></span>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            {/* card 9 */}
+
+            <div class="card">
+              <div class="card-content">
+                <a
+                  href="https://www.blender.org/features/rendering/"
+                  class="card-thumbnail"
+                >
+                  <img
+                    src="../image/blender_vse-768x432.jpg"
+                    alt="Ghost Driver - Lukas Walzer"
+                    title="Rendering"
+                    loading="lazy"
+                  />
+                </a>
+
+                <a
+                  class="card-title"
+                  href="https://www.blender.org/features/rendering/"
+                >
+                  Rendering
+                </a>
+
+                <a
+                  class="card-excerpt"
+                  href="https://www.blender.org/features/rendering/"
+                >
+                  <p>
+                    Create jaw-dropping renders thanks to Cycles, high-end
+                    production path tracer.
+                  </p>
+                </a>
+
+                <div class="card-more">
+                  <a
+                    class="more-link"
+                    href="https://www.blender.org/features/rendering/"
+                  >
+                    READ MORE <span class="chevron"><img src="../icon/next.png" alt="chevron" /></span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div className="feature-imagecontent">
+
+            {/* card 10 */}
+
+            <div class="card">
+              <div class="card-content">
+                <a
+                  href="https://www.blender.org/features/rendering/"
+                  class="card-thumbnail"
+                >
+                  <img
+                    src="../image/blender_scripting-768x432.jpg"
+                    alt="Ghost Driver - Lukas Walzer"
+                    title="Rendering"
+                    loading="lazy"
+                  />
+                </a>
+
+                <a
+                  class="card-title"
+                  href="https://www.blender.org/features/rendering/"
+                >
+                  Rendering
+                </a>
+
+                <a
+                  class="card-excerpt"
+                  href="https://www.blender.org/features/rendering/"
+                >
+                  <p>
+                    Create jaw-dropping renders thanks to Cycles, high-end
+                    production path tracer.
+                  </p>
+                </a>
+
+                <div class="card-more">
+                  <a
+                    class="more-link"
+                    href="https://www.blender.org/features/rendering/"
+                  >
+                    READ MORE <span class="chevron"><img src="../icon/next.png" alt="chevron" /></span>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+          {/* card 11 */}
+
+            <div class="card">
+              <div class="card-content">
+                <a
+                  href="https://www.blender.org/features/rendering/"
+                  class="card-thumbnail"
+                >
+                  <img
+                    src="../image/settings_default-768x432.jpg"
+                    alt="Ghost Driver - Lukas Walzer"
+                    title="Rendering"
+                    loading="lazy"
+                  />
+                </a>
+
+                <a
+                  class="card-title"
+                  href="https://www.blender.org/features/rendering/"
+                >
+                  Rendering
+                </a>
+
+                <a
+                  class="card-excerpt"
+                  href="https://www.blender.org/features/rendering/"
+                >
+                  <p>
+                    Create jaw-dropping renders thanks to Cycles, high-end
+                    production path tracer.
+                  </p>
+                </a>
+
+                <div class="card-more">
+                  <a
+                    class="more-link"
+                    href="https://www.blender.org/features/rendering/"
+                  >
+                    READ MORE <span class="chevron"><img src="../icon/next.png" alt="chevron" /></span>
+                  </a>
+                </div>
+              </div>
+            </div>
+            
+          </div>
+
+
         </div>
       </div>
     </>
