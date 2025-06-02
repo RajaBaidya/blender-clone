@@ -2,6 +2,8 @@ import React from "react";
 
 import "../style/feature.css";
 
+// import SubNavbar from "../component/subnavbar";
+
 function Feature() {
   return (
     <>

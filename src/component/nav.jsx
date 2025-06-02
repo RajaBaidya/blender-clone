@@ -85,6 +85,8 @@ function Nav() {
   };
 
   return (
+
+    
     <nav className={`navbar ${showNav ? "show" : "hide"}`} ref={navRef}>
       <div className="nav-container">
         <div className="nav-logo">
@@ -110,7 +112,7 @@ function Nav() {
           <li><a href="#">Download</a></li>
           <li className="nav-support"><Link to="/support">Support</Link></li>
           <li><a href="#">Get Involved</a></li>
-          <li><a href="#">About</a></li>
+          <li><Link to="/about">About</Link></li>
           <li><a href="#">Jobs</a></li>
           <li><a href="#">Store</a></li>
           <li>
@@ -127,7 +129,7 @@ function Nav() {
           <li><a href="#">Download</a></li>
           <li><Link to="/support">Support</Link></li>
           <li><a href="#">Get Involved</a></li>
-          <li><a href="#">About</a></li>
+          <li><Link to="/about">About</Link></li>
           <li><a href="#">Jobs</a></li>
           <li><a href="#">Store</a></li>
           <li>

@@ -1,0 +1,276 @@
+.about-main {
+  padding-top: 50px;
+  position: relative;
+  background-color: #f5f5f5;
+  background-image: url('../image/blender_splash_283_0_ian_hubert.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  height: 80vh;
+}
+
+.about-nav {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.about-fullcontainer{
+  width: 100%;
+  max-width: 1200px;
+  justify-content: center;
+  align-items: center;
+}
+
+.about {
+  position: relative;
+  width: 100%;
+  height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  text-align: center;
+}
+
+.about .container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+    position: relative;
+    z-index: 1;
+}
+
+.container {
+  /* position: relative;
+  z-index: 2; */
+      padding-left: 1.6rem;
+    padding-right: 1.6rem;
+    width: 100%;
+}
+
+.about-content h1,
+.display-4 {
+  font-size: 4rem;
+  font-weight: bold;
+  color: white;
+  margin: 0;
+}
+
+.about-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-size: cover;
+  background-position: center;
+  z-index: 0;
+}
+
+.about-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
+}
+
+.about-credits {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  z-index: 2;
+  color: white;
+  opacity: 0.7;
+  font-size: 1rem;
+  font-family: var(--fontBig);
+}
+
+.container-second {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.container-main {
+  width: 100%;
+  max-width: 1200px;
+  /* padding: 20px; */
+}
+
+.about-containerHeadtext {
+    grid-template-columns: 1fr 1fr;
+    display: grid;
+    gap: 20px;
+    padding: 20px;
+}
+
+.about-headtext {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    box-shadow: 0 .2rem 1.6rem rgba(0, 0, 0, 0.05);
+    box-sizing: border-box;
+    position: relative;
+    padding: 30px 20px;
+    color: #747474;
+    z-index: 4;
+    gap: 20px;
+    border-radius: 10px;
+    margin-top: -130px;
+}
+
+.about-headtext p {
+    font-size: 1.2rem;
+    color: #747474;
+    /* margin-bottom: 20px; */
+}
+
+/* Responsive text for smaller screens */
+/* @media (max-width: 768px) {
+  .about-content h1,
+  .display-4 {
+    font-size: 2.5rem;
+  }
+} */
+
+
+.about-imagecontent {
+  display: grid;
+  padding: 10px;  
+  /* grid-template-columns: 1fr 1fr 1fr; */
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.card {
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  overflow: hidden;
+  /* max-width: 400px; */
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  margin: 10px;
+  font-family: Arial, sans-serif;
+  gap: 20px;
+}
+
+.card-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* .card-content {
+  padding: 16px;
+} */
+
+.card-title {
+  display: block;
+  font-size: 1.5em;
+  /* font-weight: bold; */
+  color: #333;
+  text-decoration: none;
+  margin: 12px 10px;
+}
+
+.card-excerpt p {
+  /* margin: 0; */
+  margin: 15px 10px 25px 10px;
+  color: #666;
+  font-size: 1.2em;
+}
+
+.card-excerpt {
+  text-decoration: none;
+}
+
+.card-more {
+  width: 100%;
+  margin: 10px 10px 30px 10px;
+}
+
+.more-link {
+  display: flex;
+  font-size: 14px;
+  gap: 5px;
+  align-items: center;  
+  color: #0099ff;
+  font-weight: bold;
+  &:hover {
+    text-decoration: underline;
+    transition: ease-in-out 0.2s;
+  }
+}
+
+.more-link:hover .chevron {
+  margin-left: 6px;
+  transition: margin-left 0.2s ease;
+}
+
+.chevron {
+  display: inline-block;
+  transition: margin-left 0.2s ease;
+}
+
+.chevron img {
+  width: 22px;
+  height: 22px;  
+}
+
+
+
+@media (max-width: 900px) {
+  .about-imagecontent {  
+  grid-template-columns: 1fr;
+}
+}
+
+@media (max-width: 850px) {
+  .about-content h1, .display-4 {
+    font-size: 3.2rem;
+  }
+
+  .about-headtext p {
+    font-size: 1rem;
+  }
+
+  .card-excerpt p {
+    font-size: 1rem;
+  }
+
+  .card-title {
+    font-size: 1.1rem;
+  }
+}
+
+@media (max-width: 450px) {
+  .about-content h1, .display-4 {
+    font-size: 2.1rem;
+  }
+
+  .about-headtext p {
+    font-size: 12px;
+  }
+
+  .card-excerpt p {
+    font-size: 12px;
+  }
+
+  .more-link {
+    font-size: 12px;
+  }
+
+  .card-title {
+    font-size: 16px;
+  }
+}
+
