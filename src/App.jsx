@@ -10,7 +10,7 @@ import Home2 from "./page/home2";
 import Feature from "./page/feature";
 import Support from "./page/support";
 import About from "./page/about";
-// import SubNavbar from "./component/subnavbar";
+
 
 function App() {
   return (

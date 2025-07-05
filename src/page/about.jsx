@@ -48,9 +48,7 @@ function About() {
           <div className="about header-size-large header-align-x-center header-align-y-center is-container-overlap">
             <div className="container">
               <div className="about-content">
-                <h1 className="display-4">
-                  The Freedom to Create
-                </h1>
+                <h1 className="display-4">The Freedom to Create</h1>
               </div>
               {/* <div className="about-credits">pokedstudio.com</div> */}
             </div>
@@ -64,41 +62,139 @@ function About() {
             <div className="about-headtext">
               <h1>More than Software</h1>
               <p>
-                Blender is a community project coordinated by
-                 the Blender Foundation, primarily funded by donations.
+                Blender is a community project coordinated by the Blender
+                Foundation, primarily funded by donations.
               </p>
 
               <p>
-                At its core is the Blender software, to which thousands
-                 of people have contributed, and that millions use daily.
+                At its core is the Blender software, to which thousands of
+                people have contributed, and that millions use daily.
               </p>
             </div>
 
             <div className="about-headtext">
               <h1>Mission</h1>
               <p>
-               Get the world’s best 3D CG technology in the hands of 
-               artists as free/open source software.
+                Get the world’s best 3D CG technology in the hands of artists as
+                free/open source software.
               </p>
               <h1>Vision</h1>
 
               <p>
-               Everyone should be free to create 3D CG content, 
-               with free technical and creative production means 
-               and free access to markets.
+                Everyone should be free to create 3D CG content, with free
+                technical and creative production means and free access to
+                markets.
               </p>
             </div>
-          </div>    
-          
+          </div>
+        </div>
+      </div>
 
-          {/* end of about-containerHeadtext */}
+      <div className="container-second">
+        <div className="container-main">
+          <div className="about-containerHeadtext2">
+            <div className="about-headtext2">
+              <h2>Activities</h2>
 
-         
+              <p>
+                As a community-driven project under the
+                <a href="https://www.blender.org/about/license/">
+                  GNU General Public License (GPL)
+                </a>
+                , the public is empowered to make small and large changes to the
+                code base, which leads to new features, responsive bug fixes,
+                and better usability.
+              </p>
 
+              <p>
+                More help is always welcome! From developing and improving
+                Blender to writing documentation, etc, there are a number of
+                different things you can do to
+                <a href="https://www.blender.org/get-involved/">get involved</a>
+                .
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
 
-         
+      {/* end of about-containerHeadtext */}
 
+      <div className="about-blackcontainer">
+        <div className="container-second">
+          <div className="container-main">
+            <div className="about-containerHeadtext3">
+              <div className="about-headtext2">
+                <h2>Activities</h2>
 
+                <p>
+                  As a community-driven project under the
+                  <a href="https://www.blender.org/about/license/">
+                    GNU General Public License (GPL)
+                  </a>
+                  , the public is empowered to make small and large changes to
+                  the code base, which leads to new features, responsive bug
+                  fixes, and better usability.
+                </p>
+
+                <p>
+                  More help is always welcome! From developing and improving
+                  Blender to writing documentation, etc, there are a number of
+                  different things you can do to
+                  <a href="https://www.blender.org/get-involved/">
+                    get involved
+                  </a>
+                  .
+                </p>
+              </div>
+              <div className="about-headtext2">
+                <h2>Activities</h2>
+
+                <p>
+                  As a community-driven project under the
+                  <a href="https://www.blender.org/about/license/">
+                    GNU General Public License (GPL)
+                  </a>
+                  , the public is empowered to make small and large changes to
+                  the code base, which leads to new features, responsive bug
+                  fixes, and better usability.
+                </p>
+
+                <p>
+                  More help is always welcome! From developing and improving
+                  Blender to writing documentation, etc, there are a number of
+                  different things you can do to
+                  <a href="https://www.blender.org/get-involved/">
+                    get involved
+                  </a>
+                  .
+                </p>
+              </div>
+              <div className="about-headtext2">
+                <h2>Activities</h2>
+
+                <p>
+                  As a community-driven project under the
+                  <a href="https://www.blender.org/about/license/">
+                    GNU General Public License (GPL)
+                  </a>
+                  , the public is empowered to make small and large changes to
+                  the code base, which leads to new features, responsive bug
+                  fixes, and better usability.
+                </p>
+
+                <p>
+                  More help is always welcome! From developing and improving
+                  Blender to writing documentation, etc, there are a number of
+                  different things you can do to
+                  <a href="https://www.blender.org/get-involved/">
+                    get involved
+                  </a>
+                  .
+                </p>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </>
